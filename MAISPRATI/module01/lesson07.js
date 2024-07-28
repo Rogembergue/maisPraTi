@@ -19,7 +19,7 @@ const prompt = require("prompt-sync")();
 // }
 
 // _____________________________________________________________
-// While
+// Whilee
 // -------
 // let num = 0;
 // let counter = 0;
