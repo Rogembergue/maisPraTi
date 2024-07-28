@@ -40,12 +40,12 @@ const prompt = require("prompt-sync")();
 // }while (num >= 0);
 
 // _____________________________________________________________
-// Todos os 50 primeiros numero primos maiores que 100.
-// -------
-// let num = 100
+Todos os 50 primeiros numero primos maiores que 100.
+-------
+let num = 100
 
-// for (let div = 2; div <= num; div++){
-//     if (condition) {
+for (let div = 2; div <= num; div++){
+    if (condition) {
         
-//     }
-// }
+    }
+}
