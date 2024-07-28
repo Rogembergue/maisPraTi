@@ -1,0 +1,7 @@
+Exercício 1: Verifiquem o dia da semana com a estrutura switch-case
+
+Exercício 2: Calcular o número de dias em um mês.
+
+- Sendo que o mês 1, 3, 5, 7, 8, 10 e 12 tem 31 dias
+- Os meses 4, 6, 9 e 11 tem 30 dias 
+- Mês 2 tem 28 dias
