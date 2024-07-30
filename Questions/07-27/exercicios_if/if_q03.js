@@ -14,6 +14,9 @@ else if (media >= 7) {
     console.log(`${media} --> C`);
 }else if (media >= 6) {
     console.log(`${media} --> D`);
-}else {
+}else if (media < 6 && media>=0) {
     console.log(`${media} --> F`);
+}
+else{
+    console.log(`${media} --> Invalido!`);
 }
