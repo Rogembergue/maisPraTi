@@ -36,48 +36,48 @@ const prompt = require("prompt-sync")();
 //     }
 // }
 
-//Matriz
-let matriz = [
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9]
-];
+// //Matriz
+// let matriz = [
+//     [1, 2, 3],
+//     [4, 5, 6],
+//     [7, 8, 9]
+// ];
 
-let matriz2 = [
-    [5, 7, 3],
-    [6, 1, 0],
-    [2, 8, 5]
-];
+// let matriz2 = [
+//     [5, 7, 3],
+//     [6, 1, 0],
+//     [2, 8, 5]
+// ];
 
-for (let i = 0; i < matriz.length; i++) {
-    for (let j = 0; j < matriz[i].length; j++) {
-        console.log(`Elemento na posição [${i}][${j}]: ${matriz[i][j]}`);
-    }
-}
+// for (let i = 0; i < matriz.length; i++) {
+//     for (let j = 0; j < matriz[i].length; j++) {
+//         console.log(`Elemento na posição [${i}][${j}]: ${matriz[i][j]}`);
+//     }
+// }
 
-Soma Matriz
-let matriz = [
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9]
-];
+// // Soma Matriz
+// let matriz = [
+//     [1, 2, 3],
+//     [4, 5, 6],
+//     [7, 8, 9]
+// ];
 
-let matriz2 = [
-    [5, 7, 3],
-    [6, 1, 0],
-    [2, 8, 5]
-];
+// let matriz2 = [
+//     [5, 7, 3],
+//     [6, 1, 0],
+//     [2, 8, 5]
+// ];
 
-let sum = [];
+// let sum = [];
 
-for (let i = 0; i < matriz.length; i++) {
-    let somaLinha = [];
-    for (let j = 0; j < matriz[i].length; j++) {
-        somaLinha.push(matriz[i][j] + matriz2[i][j]);
-    }
-    sum.push(somaLinha);
-}
-console.table(sum);
+// for (let i = 0; i < matriz.length; i++) {
+//     let somaLinha = [];
+//     for (let j = 0; j < matriz[i].length; j++) {
+//         somaLinha.push(matriz[i][j] + matriz2[i][j]);
+//     }
+//     sum.push(somaLinha);
+// }
+// console.table(sum);
 
 // //Soma Diagonal da Matriz
 // let matriz = [
