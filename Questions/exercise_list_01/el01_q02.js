@@ -1,12 +1,15 @@
 const prompt = require("prompt-sync")();
+
 let idade = parseInt(prompt(`Insira a idade: `));
-if (idade>=0 && idade>=12) {
+
+//Classificar idade
+if (idade>=0 && idade<=12) {
     console.log(`${idade} --> Crianca!`)
 }
-else if (idade>=13 && idade>=17) {
+else if (idade>=13 && idade<=17) {
     console.log(`${idade} --> Adolescente!`)
 }
-else if (idade>=18 && idade>=59) {
+else if (idade>=18 && idade<=59) {
     console.log(`${idade} --> Adulto!`)
 }
 else if (idade>=60) {
