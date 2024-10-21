@@ -1,4 +1,3 @@
-
 function sendMail(event){
     event.preventDefault();
 
@@ -87,7 +86,4 @@ $(document).ready(function() {
         duration: 1000,
         distance: '20%'
     })
-
-    
-
 });
