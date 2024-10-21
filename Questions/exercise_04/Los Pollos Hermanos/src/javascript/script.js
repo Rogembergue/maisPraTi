@@ -86,4 +86,17 @@ $(document).ready(function() {
         duration: 1000,
         distance: '20%'
     })
+
+    let localidade = document.querySelector("#localidade");
+    let localidade2 = document.querySelector("#localidade2");
+    let localidade3 = document.querySelector("#localidade3");
+    
+    fetch("https://viacep.com.br/ws/01001000/json/")
+    .then(response => response.json())
+    .then(data => {
+        console.log(data);
+        localidade.innerHTML += data.localidade;
+        localidade2.innerHTML += data.localidade;
+        localidade3.innerHTML += data.localidade;
+    })
 });
