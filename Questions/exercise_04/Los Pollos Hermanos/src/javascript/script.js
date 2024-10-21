@@ -1,3 +1,33 @@
+
+function sendMail(event){
+    event.preventDefault();
+
+    const nome = document.getElementById("name").value;
+    const emaill = document.getElementById("email").value;
+    const telefone = document.getElementById("number").value;
+    const mensagem = document.getElementById("message").value;
+
+    if (!nome || !emaill || !telefone || !mensagem) {
+        alert('Por favor, preencha todos os campos obrigatórios.');
+        return;
+    }
+
+    const parms = {
+        from_name: nome,
+        from_email : emaill,
+        from_number : telefone,
+        from_message : mensagem,
+    };
+    
+    emailjs.send("service_9zjdyq4","template_3vlc5an",parms)
+        .then((response) => {
+            alert("Mensagem enviada com sucesso!");
+            document.getElementById("contatoForm").reset();
+        }, (error) => {
+            alert('Erro ao enviar a mensagem: ' + JSON.stringify(error));
+        });
+}
+
 $(document).ready(function() {
     $('#mobile_btn').on('click', function () {
         $('#mobile_menu').toggleClass('active');
@@ -57,4 +87,7 @@ $(document).ready(function() {
         duration: 1000,
         distance: '20%'
     })
+
+    
+
 });
