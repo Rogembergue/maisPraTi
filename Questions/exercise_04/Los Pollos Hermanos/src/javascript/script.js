@@ -87,6 +87,12 @@ $(document).ready(function() {
         distance: '20%'
     })
 
+    ScrollReveal().reveal('#contato', {
+        origin: 'right',
+        duration: 1000,
+        distance: '20%'
+    })
+
     let localidade = document.querySelector("#localidade");
     let localidade2 = document.querySelector("#localidade2");
     let localidade3 = document.querySelector("#localidade3");
