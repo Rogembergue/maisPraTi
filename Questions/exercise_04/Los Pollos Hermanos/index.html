@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/styles.css">
+    <link rel="stylesheet" href="src/styles/header.css">
+    <link rel="stylesheet" href="src/styles/home.css">
+    <link rel="stylesheet" href="src/styles/menu.css">
+    <link rel="stylesheet" href="src/styles/testimonials.css">
+    <link href="https://fonts.cdnfonts.com/css/ji-burrito" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Los Pollos Hermanos</title>
+    <meta name="keywords" content="Web Development, HTML, CSS, Javascipt, Breaking Bad, Gustavo Fring, Los Pollos Hermanos">
+    <meta name="Author" content="Rogem">
+    <meta name="description" content="Site fictício do restaurante Los Pollos Hermanos, prense na série Breaking Bad.">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <img src="assets/stickers-breaking-bad-los-pollos-hermanos-removebg-preview.png" id="nav_logo">
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services">Serviços</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Testemunhos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact">Contato</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">Peça já</button>
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services">Serviços</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Testemunhos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact">Contato</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">Peça já</button>
+        </div>
+    </header>
+    
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    Los Pollos
+                    <span>Hermanos</span>
+                </h1>
+
+                <p class="description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                     Exercitationem tempore, vero dignissimos non sapiente atque 
+                     neque perspiciatis soluta provident error ipsam itaque
+                     maiores hic debitis repellat amet illum repellendus? Unde?
+                </p>
+
+                <div id="cta_buttons">
+                    <a href="" class="btn-default">
+                        Ver cardápio
+                    </a>
+
+                    <a href="tel:+123456789" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                        (11) 91234-5678
+                    </a>
+                </div>
+                <div class="social-media-buttons">
+                    <a href="">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+            <div id="banner">
+                <img src="assets/banner.png" alt="">
+            </div>
+        </section>
+
+        <section id="menu">
+            <h2 class="section-title">Cardápio</h1>
+            <h3 class="section-subtitle">Nosso pratos</h3>
+
+            <div id="dishes">
+                <div class="dish">
+                    <img src="assets/fried-chicken.jpg" alt="Frango Frito">
+                    <h3 class="dish-title">
+                    Pollos
+                </h3>
+
+                <span class="dish-description">
+                    Especialidade da casa!
+                </span>
+
+                <div class="dish-rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(1830+)</span>
+                </div>
+                <div class="dish-price">
+                    <h4>R$19,00</h4>
+                    <button class="btn-defaul">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
+                </div>
+                </div>
+
+                <div class="dish">
+                    <img src="assets/Burrito.jpg" alt="Burrito">
+                    <h3 class="dish-title">
+                    Burrito
+                </h3>
+
+                <span class="dish-description">
+                    O delicioso burrito.
+                </span>
+
+                <div class="dish-rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(320+)</span>
+                </div>
+
+                <div class="dish-price">
+                    <h4>R$15,00</h4>
+                    <button class="btn-defaul">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
+                </div>
+                </div>
+
+                <div class="dish">
+                    <img src="assets/Huevos-Rancheros.jpg" alt="Ovos Mexidos">
+                <h3 class="dish-title">
+                    Huevos Rancheros
+                </h3>
+
+                <span class="dish-description">
+                    Ovo Mexido
+                </span>
+
+                <div class="dish-rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(154+)</span>
+                </div>
+
+                <div class="dish-price">
+                    <h4>R$10,00</h4>
+                    <button class="btn-defaul">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <img src="assets/gus.png" id="testimonial_gus">
+
+            <div id="testimonials_content">
+                <h2 class="section-title">
+                    Depoimentos
+                </h2>
+                <h3 class="section-subtitle">
+                    O que os clientes falam sobre
+                </h3>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="assets/WalterWhite.png" class="feedback-avatar">
+
+                        <div class="feedback-content">
+                            <p>
+                                Walter White
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                Muito bom! Lorem ipsum dolor sit 
+                                amet consectetur adipisicing elit. 
+                                Voluptas impedit neque quidem? Quasi,
+                                 architecto repellat consequuntur ut alias ratione quam nemo
+                                  quaerat 
+                                 nobis? Repudiandae velit aspernatur, 
+                                dolorem consequatur deserunt doloribus.
+                            </p>    
+                        </div>
+                    </div>
+
+                    <div class="feedback">
+                        <img src="assets/Heisenberg.png" class="feedback-avatar">
+
+                        <div class="feedback-content">
+                            <p>
+                                Heisenberg
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                99,1% Maravilhoso!!! Lorem ipsum dolor sit 
+                                amet consectetur adipisicing elit. 
+                                Voluptas impedit neque quidem? Quasi,
+                                 architecto repellat consequuntur ut alias ratione quam nemo
+                                  quaerat 
+                                 nobis? Repudiandae velit aspernatur, 
+                                dolorem consequatur deserunt doloribus.
+                            </p>    
+                        </div>
+                    </div>
+
+                    <div class="feedback">
+                        <img src="assets/jesse.jpg" class="feedback-avatar">
+
+                        <div class="feedback-content">
+                            <p>
+                                Jesse Pinkman
+                                <span>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                Uma merda! Lorem ipsum dolor sit 
+                                amet consectetur adipisicing elit. 
+                                Voluptas impedit neque quidem? Quasi,
+                                 architecto repellat consequuntur ut alias ratione quam nemo
+                                  quaerat 
+                                 nobis? Repudiandae velit aspernatur, 
+                                dolorem consequatur deserunt doloribus.
+                            </p>    
+                        </div>
+                    </div>
+                </div>
+
+                <button class="btn-default">
+                    Ver mais avaliações
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img src="assets/wave.svg" alt="">
+
+        <div id="footer_items">
+            <span id="copyright">
+                &copy 2024 Todos os direitos reservados ao Los Pollos Hermanos.
+            </span>
+        </div>
+    </footer>
+
+    <script src="src/javascript/script.js"></script>
+</body>
+</html>
