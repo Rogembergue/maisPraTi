@@ -21,6 +21,7 @@ section {
 }
 
 .btn-default {
+    font-size: larger;
     border: none;
     display: flex;
     align-items: center;
